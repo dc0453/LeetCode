@@ -3,7 +3,7 @@ import java.lang.Math;
 import java.util.HashMap;
 
 /**
- * Created by diwenchen on 2016/10/20.
+ * Created by dc0453 on 2016/10/20.
  * https://leetcode.com/problems/two-sum/
  */
 public class Solution {
