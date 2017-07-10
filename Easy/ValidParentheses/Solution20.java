@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Stack;
 
 /**
- * Created by diwenchen on 2017/2/21.
+ * Created by dc0453 on 2017/2/21.
  * https://leetcode.com/problems/valid-parentheses/
  */
 public class Solution20 {

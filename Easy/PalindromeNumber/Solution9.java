@@ -1,5 +1,5 @@
 /**
- * Created by diwenchen on 2017/2/20.
+ * Created by dc0453 on 2017/2/20.
  * https://leetcode.com/problems/palindrome-number/
  */
 public class Solution9 {

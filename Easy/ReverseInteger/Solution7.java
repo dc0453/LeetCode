@@ -1,5 +1,5 @@
 /**
- * Created by diwenchen on 2017/2/19.
+ * Created by dc0453 on 2017/2/19.
  * https://leetcode.com/problems/reverse-integer/
  */
 public class Solution7 {
