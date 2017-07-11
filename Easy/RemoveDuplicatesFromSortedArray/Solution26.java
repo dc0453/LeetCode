@@ -26,10 +26,35 @@ public class Solution26 {
         return newLength;
     }
 
+    /**
+     * short version
+     *
+     * @param nums
+     * @return
+     */
+    public int removeDuplicates1(int[] nums) {
+        if (nums == null || nums.length == 0)
+            return 0;
+        int newLength = 0;
+        int temp = nums[0];
+        for (int i = 1; i < nums.length; i++) {
+            if (nums[i] != temp) {
+                nums[++newLength] = nums[i];
+                temp = nums[i];
+            }
+        }
+        return newLength + 1;
+    }
+
     public static void main(String[] args) {
         int nums[] = new int[]{1,1,2,2,3,4};
-        int newLength = new Solution26().removeDuplicates(nums);
+        int newLength = new Solution26().removeDuplicates1(nums);
         System.out.println(newLength);
         System.out.println(Arrays.toString(nums));
+
+        int nums1[] = new int[]{1,1,2,2,3,4};
+        newLength = new Solution26().removeDuplicates(nums1);
+        System.out.println(newLength);
+        System.out.println(Arrays.toString(nums1));
     }
 }
